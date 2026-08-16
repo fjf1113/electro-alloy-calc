@@ -24,22 +24,6 @@
 
 3. 在微信（设置里绑定）/对话框中即可自然语言提问（如："算一下 255 宽 3.5 厚 0.3 扁带米阻"）。
 
-## 📁 结构
-
-```
-electro-alloy-calc/
-├── SKILL.md            # 技能说明 + 固定工作流路由
-├── agent_tool.py       # JSON 入口，按 action 分发
-├── install.bat         # Windows 一键安装到 skills 目录
-├── install.sh          # macOS / Linux 一键安装
-├── core/
-│   ├── __init__.py
-│   ├── alloy_db.py     # 牌号别名 + 电阻率/密度/温度系数库
-│   ├── calculator.py   # 米电阻正/反向（原功能，未改动）
-│   └── element_design.py # 质量/长度/电参数/螺旋丝/波浪元件 核算与设计
-├── README.md
-└── .gitignore          # __pycache__ 与私有 *.xlsx 不入库
-```
 
 ## ⚠️ 工程边界
 
