@@ -17,7 +17,7 @@
 1. 克隆本项目：
 
    ```bash
-   git clone https://github.com/fjf1113/Electro-Alloy Calc.git
+   git clone https://github.com/fjf1113/electro-alloy-calc.git  
    ```
 
 2. 在 WorkBuddy 或 Agent 平台的对话框内输入上面的指令让其进行安装。
